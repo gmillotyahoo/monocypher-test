@@ -1,0 +1,34 @@
+{
+  "computation": { "type": "error", "status": "OK" },
+  "undefined_functions": { "type": "error", "status": "OK" },
+  "degeneration": { "type": "error", "status": "OK" },
+  "non_terminating": { "type": "to verify", "status": "OK" },
+  "messages": { "type": "to verify", "status": "OK" },
+  "alarms": { "type": "error", "status": "OK" },
+  "hypotheses": { "type": "to verify", "status": "OK" },
+  "no_body_but_spec": { "type": "to verify", "status": "OK" },
+  "body_but_use_spec": { "type": "informative", "status": "OK" },
+  "external_variables": { "type": "informative", "status": "OK" },
+  "assembly": { "type": "informative", "status": "OK" },
+  "builtins": { "type": "informative", "status": "OK" },
+  "useless_files": {
+    "type": "to verify",
+    "status": "NOT OK",
+    "list": [ "monocypher-ed25519.c" ]
+  },
+  "coverage": {
+    "type": "informative",
+    "function_coverage": "18%",
+    "total_statements_coverage": "34%",
+    "semantic_statements_coverage": "100%"
+  },
+  "precision": { "type": "informative", "status": "OK", "max_slevel": 16385 },
+  "target": {
+    "type": "informative",
+    "entry_point": "argon",
+    "architecture": "32-bit SPARC",
+    "endianness": "big endian"
+  },
+  "entry_point_return": { "type": "informative", "reachable": true },
+  "exit_function": { "type": "informative", "reachable_calls": 0 }
+}
